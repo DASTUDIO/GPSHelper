@@ -1,4 +1,4 @@
-.cs  linguist-luaguage = C#
-.java linguist-language = Java
-.php  linguist-language = PHP
+*.cs  linguist-luaguage = C#
+*.java linguist-language = Java
+*.php  linguist-language = PHP
 
