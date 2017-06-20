@@ -43,7 +43,7 @@ public class GPSHelper
 
     //删除已经注册的用户信息 返回操作成功与否
     public boolean UpRegisterUserGpsLocation(String userOpenId) {
-        if(GpsPointSet.containsKey((userOpenId)))
+        if(!GpsPointSet.containsKey((userOpenId)))
         {
             return false;
         }
