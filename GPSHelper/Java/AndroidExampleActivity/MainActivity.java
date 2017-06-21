@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void setText()
     {
         TextView mText = (TextView) findViewById(R.id.mText);
-        mText.setText("asdf");
+        //mText.setText("asdf");
 
         GPSHelper gh = GPSHelper.getInstance();
         gh.RegisterUserGpsLocation("XIAOMING",1.5,3.3);
